@@ -87,14 +87,16 @@ class Gol:
 #	def isGol(self, bola):
 
 # Classe que representa uma pequena area no campo
-class PequenaArea:
+class PequenaArea(Area):
 	def __init__(self):
+		Area.__init__(self, (0,0), (0,0))
 		pass
 
 
 # Classe que representa uma grande area no campo
-class GrandeArea:
+class GrandeArea(Area):
 	def __init__(self):
+		Area.__init__(self, (0,0), (0,0))
 		pass
 
 
